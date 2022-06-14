@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+ <response>
+ 	<scan>~scan~</scan>
+	<count>~bssCount~</count>
+	
+	<bss>
+		<valid>~valid~</valid>
+		<name>~name~</name>
+		<privacy>~privacy~</privacy>
+		<wlan>~wlan~</wlan>
+		<strength>~strength~</strength>
+	</bss>
+	
+	<pot0>~pot~</pot0>
+	<hello>~hellomsg~</hello>
+ </response>

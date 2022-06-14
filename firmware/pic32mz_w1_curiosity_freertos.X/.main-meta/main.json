@@ -1,0 +1,71 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.3.0",
+		"name": "com.microchip.mcu32.mplabx.project.PIC32MZW1_WebSocket_HTTP_Website",
+		"version": "3.6.1",
+		"displayName": "HTTP Website with WebSocket connection",
+		"projectName": "PIC32MZW1_WebSocket_HTTP_Website",
+		"shortDescription": "This example application enable a websocket server with the HTTP website, temperature and light intensity value is send to the browser through the websocket connection and display in real time.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=6.00"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=3.0.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32MZ-W_DFP",
+			"semverRange": "^1.5.203"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.8.2"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32MZ1025W104132",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"peripherals": [
+			"Wi-Fi"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32MZ1025W104132",
+			"WFI32",
+			"WFI32E01",
+			"PIC32MZ W1 Family",
+			"wireless",
+            "webScoket",
+			"web Socket",
+			"ws",
+			"website",
+			"webpage",
+			"http"
+			
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
