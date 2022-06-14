@@ -6,17 +6,6 @@
 
 Devices: **WFI32E01**
 
-<!--
-
-**Watch the video and see how the temperature and light intensity can be shown on the webpage using websocket server**
-
-<p align="center">
-<a href="https://youtu.be/W9FOUlL607k" target="_blank">
-<img src="images/bridging_thumbnail.png" 
-alt="Enable L2 Bridging with WLAN & LAN on a single network supported on WFI32 Applications developed with MPLAB® X IDE and MPLAB Harmony v3" width="480"></a>
-</p>
-
--->
 
 ## ⚠ Disclaimer
 
@@ -31,11 +20,16 @@ Note that while this repository is unsupported, Microchip welcome community cont
 
 ## Description
 
-This application demonstrates how a user can run a WebSocket server with the HTTP website on the WFI32-IoT Board. The temerature sensor and light sensor value are send to the webpage through the websocket connection and display on the chart in real time.  The system come up in AP mode by default, user can browser the webpage to monitor the sensor value by entering the IP address http://192.168.1.1 . User can also configure the device into STA mode on the webpage, and visit the webpage to monitor the sensor value by entering the IP address of the device.
+This application demonstrates how a user can run a WebSocket server with the HTTP website on the [WFI32-IoT Board](https://www.microchip.com/en-us/development-tool/ev36w50a). The on-board temperature sensor (MCP9808) and on-board light sensor (OPT3001) value are send to the browser through the websocket connection and display on the chart in real time.  The system come up in SoftAP mode by default, users can connect computer to the WFI32-IoT Board and browser the webpage to monitor the sensor value by entering the IP address http://192.168.1.1 . Users can also configure the device into STA mode to connect the target AP on the website, and visit the webpage to monitor the sensor value by entering the IP address of the device.  
 
+<p align="center">
+<img src="images/block_diagram.png">
+</p>
 <p align="center">
 <img src="images/websocket_browser.gif" width=1000>
 </p>
+
+Users can find the details of the WebSocket Server Service in this [link](https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32mzw1_wfi32e01/tree/master/system/wss) and another example of the WebSocket Server Example proejct in this [link](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32mzw1_wfi32e01/tree/master/apps/web_socket_server).
 
 ### AJAX VS WebSocket
 The original HTTP server module on WFI32 can support the AJAX techniques to provide the real-time data to the webpage. WebSocket in this project is another techniques to send real-time data.  
@@ -105,12 +99,12 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| pic32mz_w1_curiosity_freertos.X | MPLABX project for WIF32-IoT Board |
+| pic32mz_w1_curiosity_freertos.X | MPLABX project for WFI32-IoT Board |
 |||
 
 ## Setting up PIC32MZ W1 WFI32-IoT Board
 
-- Computer connected to WFI32-IoT board over USB (J200) to power the board
+- Computer connected to [WFI32-IoT board](https://www.microchip.com/en-us/development-tool/ev36w50a) over USB (J200) to power the board
 
 ## Running the Application
 

@@ -99,12 +99,12 @@ $(document).ready(function () {
         return;
       }
 
-	  if (obj.temperature > 60)
+	  if (obj.temperature > 60) // maximum temperature value can be disply on the chart
 	    obj.temperature = 60;
 		
 	  timeData.push(obj.time);
 	  temperatureData.push(obj.temperature);
-	  // only keep no more than 50 points in the line chart
+	  // only keep no more than 30 points in the line chart
 	  const maxLen = 30;
 	  var len = timeData.length;
 	  if (len > maxLen) {
@@ -112,7 +112,7 @@ $(document).ready(function () {
 		temperatureData.shift();
 	  }
 		
-	  if (obj.lightIntensity > 600)
+	  if (obj.lightIntensity > 600)	// maximum light intensity value can be display on the chart
 	    obj.lightIntensity = 600;
 	  if (obj.lightIntensity || (obj.lightIntensity == 0)) {
 	    lightIntensity.push(obj.lightIntensity);
