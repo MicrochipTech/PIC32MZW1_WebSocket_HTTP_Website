@@ -29,7 +29,7 @@ This application demonstrates how a user can run a WebSocket server with the HTT
 <img src="images/websocket_browser.gif" width=1000>
 </p>
 
-Users can find the details of the WebSocket Server Service in this [link](https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32mzw1_wfi32e01/tree/master/system/wss) and another example of the WebSocket Server Example proejct in this [link](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32mzw1_wfi32e01/tree/master/apps/web_socket_server).
+Users can find the details of the WebSocket Server Service in this [link](https://github.com/Microchip-MPLAB-Harmony/wireless_system_pic32mzw1_wfi32e01/tree/master/system/wss) and another example of the WebSocket Server Example project in this [link](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32mzw1_wfi32e01/tree/master/apps/web_socket_server).
 
 ### AJAX VS WebSocket
 The original HTTP server module on WFI32 can support the AJAX techniques to provide the real-time data to the webpage. WebSocket in this project is another techniques to send real-time data.  
@@ -99,7 +99,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| pic32mz_w1_curiosity_freertos.X | MPLABX project for WFI32-IoT Board |
+| pic32mz_w1_wfi32iot_freertos.X | MPLABX project for WFI32-IoT Board |
 |||
 
 ## Setting up PIC32MZ W1 WFI32-IoT Board
@@ -127,7 +127,7 @@ To build the application, refer to the following table and open the project usin
 
 7. Open browser on the computer and enter the URL http://192.168.1.1 
 
-8. Click **WebSocket Test** in the left panal, temperuatre and light intensity will be shown on a chart and keep updated in real time.
+8. Click **WebSocket Test** in the left panel, temperature and light intensity will be shown on a chart and keep updated in real time.
 
 <p align="center">
 <img src="images/websocket_chat_display.png" width=1000>
@@ -148,4 +148,4 @@ If you need to update the website with your own project, you can perfrom below s
     </p>
 
 4. http_print.c and mpfs_img2.c are generated at the output files project directory.
-5. Copy adn Replace these two files to **firmware/src/config/pic32mz_w1_curiosity_freertos/system/wifiprov**
+5. Copy and Replace these two files to **firmware/src/config/pic32mz_w1_curiosity_freertos/system/wifiprov**

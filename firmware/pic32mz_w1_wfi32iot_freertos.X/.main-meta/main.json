@@ -62,7 +62,7 @@
 				"category": "com.microchip.portal.fileRef",
 				"content": {
 					"metaDataVersion": "1.0.0",
-					"fileName": "./../../../readme.md",
+					"fileName": "./../../readme.md",
 					"mimeType": "text/markdown"
 				}
 			}
